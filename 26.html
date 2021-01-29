@@ -1,0 +1,46 @@
+<html>
+<head>
+<title> Loops</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+.c{
+font-family:Amaranth;
+font-weight:150;
+src:href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap"
+}
+</style></head>
+<body style="background-color:silver;">
+<div style="border:1px solid black; height:155%;width:90%;position:absolute;left:5%;top:5%;background-color:#7FDBFF;">
+<font size="6" class="c" style="color:green; position:absolute;left:4%;top:3%;"><b>* Loops</b></font>
+<font size="5" class="c" style="position:absolute;top:10%;left:2%;color:maroon;"> &nbsp     &nbsp      &nbsp     &nbsp     &nbsp     &nbsp    A block of looping statements in C are executed for number of times until the condition becomes false. Loops are of 2 types: entry-controlled and exit-controlled. 'C' programming provides us 1) while 2) do-while and 3) for loop. <br><br>
+<b>Type of loop<b>
+<br>
+a) for() = for loop is used to execute a set of statements repeatedly until a particular condition is satisfied. We can say it is an open ended loop.. General format is,
+
+<b><i>syntax <br>for(initialization; condition; increment/decrement)<br>
+{<br>
+    statement-block;<br>
+}</i></b>
+In for loop we have exactly two semicolons, one after initialization and second after the condition. In this loop we can have more than one initialization or increment/decrement, separated using comma operator. But it can have only one condition.
+<br>b) while() = while loop can be addressed as an entry control loop. It is completed in 3 steps.
+
+Variable initialization.(example int a = 0;)
+condition(example while(x <= 20))
+Variable increment or decrement ( x++ or x-- or x = x + 1 )
+<b><i>syntax<br>variable initialization;<br>
+while(condition)<br>
+{<br>
+    statements;<br>
+    variable increment or decrement; <br>
+}</i></b>
+c) do while() =  In some situations it is necessary to execute body of the loop before testing the condition. Such situations can be handled with the help of do-while loop. do statement evaluates the body of the loop first and at the end, the condition is checked using while statement. It means that the body of the loop will be executed at least once, even though the starting condition inside while is initialized to be false. 
+<b><i>syntax<br>do<br>
+{<br>
+    .....<br>
+    .....<br>
+}<br>
+while(condition)</i></b>
+</font>
+</div>
+</body>
+</html>
